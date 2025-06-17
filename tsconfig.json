@@ -8,12 +8,14 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "jsx": "react-jsx",
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "paths": {
       "*": ["node_modules/*"]
-    }
+    },
+    "lib": ["es2021", "dom"],
   },
   "include": ["src/**/*"]
 }
